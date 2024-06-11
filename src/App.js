@@ -1,23 +1,25 @@
-import logo from './logo.svg';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import './App.css';
-
+import { Navbar } from './components/navbar';
+import RouterView from './router';
+import { VideoContext } from './context/videoContext';
+import { useState } from 'react';
 function App() {
+
+  const notify = () => {
+    toast.success('Success Notification!');
+  };
+  const [videoUrl, setVideoUrl] = useState('https://www.youtube.com/embed/dQw4w9WgXcQ')
+  const [videoId, setVideoId] = useState('')
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <VideoContext.Provider value={{ videoUrl, setVideoUrl, videoId, setVideoId }}>
+        <Navbar />
+        <RouterView />
+        <ToastContainer />
+        {/* <button onClick={() => notify()}>Toast</button> */}
+      </VideoContext.Provider>
     </div>
   );
 }

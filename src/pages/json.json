@@ -1,0 +1,16 @@
+{
+    "code": 100,
+    "data": {
+        "callback_id": null,
+        "caption_url": "",
+        "duration": 4.47575,
+        "error": null,
+        "gif_url": "https://resource.heygen.ai/video/gifs/dac39d7897c747578576d2c6439f0a88.gif",
+        "id": "dac39d7897c747578576d2c6439f0a88",
+        "status": "completed",
+        "thumbnail_url": "https://files.heygen.ai/aws_pacific/avatar_tmp/2503eba005a84b18a99e4b4df3675955/dac39d7897c747578576d2c6439f0a88.jpeg?Expires=1718688616&Signature=MAGY3snM3TqR~YxY-OkPjGcGBl1BXJdz9P4m66xCPjHuyHPs2mMEbGCXhD1Jk7vnTKN47NMYgsYJvXYskhklKQo-cBucxMPCeDuLW4BPXZQ8lYtyz2MEyT~SRyiL8exk5MoUdh5EsPEPwEEqCHtI9zjRIqrH4KRzhrK9idOBE8gdOqeMacOgW8EQa2KgjeU-IGbNcGlTxMAIj1FejhyIGJ~qV0Sz9R234JFm14BOhBQn3SzterNnoouOYbmIfTGkf4tF1KlHi18yjrlWX3ZaPQCTOK1ZR22jKtL5wc9qMvqql2Fc1sf5saqGDdmGbz0Yp6UNRbjPrVJZSvHcOtUSQw__&Key-Pair-Id=K49TZTO9GZI6K",
+        "video_url": "https://files.heygen.ai/aws_pacific/avatar_tmp/2503eba005a84b18a99e4b4df3675955/dac39d7897c747578576d2c6439f0a88.mp4?Expires=1718688605&Signature=iSyEjfS4sTDXpmSOoIarZklA3HnIdFF6Vmc7PMMgllqQuxrn2cpupf1PGUIIfx3ShzVR9QJqbTEPirnLXHVhIC2MVJtL~f1BOPX75zPrvOQTN8eD7AQg4DSDBE7H1Duh5bpsC61BLsSbprIg54uf-8u~le-ByImlPd~sIockDMbf2-Hdx6rxd-d7rbQpsZsXAcX0ijoShv9xZQDnJ5uY4RQQk7fNDwEYJgJ23~aHxx0mbtAyVCK2rM~7MCxV8bV5bpPZWGov0SoYbH6eu3HnopzlFe6tRCDhLsJPNaiEMwyvW~fwedMVzPW0NXpj3UpbfA0Rr98ogIBwEqlM73Oy9Q__&Key-Pair-Id=K49TZTO9GZI6K",
+        "video_url_caption": null
+    },
+    "message": "Success"
+}
